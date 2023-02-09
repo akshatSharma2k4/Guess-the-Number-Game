@@ -1,0 +1,45 @@
+.gameScreen{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    flex-direction: column;
+    height: 50vh;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: antiquewhite;
+    min-width: 300px;
+    width: 28vw;
+}
+
+#gt1{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-bottom: 5%;
+}
+#gt2{
+    margin-bottom: 3%;
+    margin-top: 7%;
+    font-size: large;
+
+}
+#gt3{
+    margin: 3%;
+}
+.attempt-value{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: red;
+}
+.attempts{
+    font-weight: bolder;
+    font-size: large;
+    color: red;
+}
+.user-input{
+    width: 50%;
+    height: 15%;
+    border: 2px solid black;
+    text-align: center;
+    font-size: large;
+}
