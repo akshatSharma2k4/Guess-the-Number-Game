@@ -56,16 +56,11 @@ body{
     height: 30%;
     border: none;
     border-radius: 3px;
+    background-color: blueviolet;
 }
 button:hover{
     background-color: #fff;
 }
 .btn-text{
     font-size: medium;
-}
-.btn1{
-    background-color: blueviolet;
-}
-.btn2{
-    background-color: blueviolet;
 }
