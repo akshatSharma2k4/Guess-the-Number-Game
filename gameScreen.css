@@ -1,10 +1,10 @@
 .gameScreen{
-    display: flex;
+    display: none;
     align-items: center;
     box-sizing: border-box;
     padding: 10px;
     flex-direction: column;
-    height: 50vh;
+    height: 60vh;
     border: 2px solid black;
     border-radius: 8px;
     background: antiquewhite;
@@ -16,15 +16,17 @@
     font-weight: bolder;
     font-size: xx-large;
     margin-bottom: 5%;
+    margin-top: 5%;
 }
 #gt2{
     margin-bottom: 3%;
     margin-top: 7%;
-    font-size: large;
+    /* font-size: large; */
 
 }
 #gt3{
     margin: 3%;
+    
 }
 .attempt-value{
     font-weight: bolder;
@@ -33,7 +35,7 @@
 }
 .attempts{
     font-weight: bolder;
-    font-size: large;
+    font-size: x-large;
     color: red;
 }
 .user-input{
@@ -43,4 +45,11 @@
     text-align: center;
     font-size: large;
     font-weight: bold;
+    background: transparent;
+}
+#myBtn{
+    height: 10%;
+    width: 60%;
+    margin-top: 3%;
+    display: none;
 }
